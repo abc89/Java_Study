@@ -1,0 +1,10 @@
+package lzw.mode.simplefactorymode;
+
+public class OperationMul extends Operation {
+	public double getResult(double num1,double num2) {
+		double result=0;
+		result=num1*num2;
+		return result;
+		
+	}
+}

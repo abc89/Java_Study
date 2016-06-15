@@ -1,0 +1,54 @@
+package lzw.util.jdbctool;
+
+public class User {
+	private String Teacher_Username,Teacher_Password,Teacher_Name,Teacher_Sex,Teacher_Tel;
+    private int Teacher_ID;
+	public int getTeacher_ID() {
+		return Teacher_ID;
+	}
+
+	public void setTeacher_ID(int teacher_ID) {
+		Teacher_ID = teacher_ID;
+	}
+
+	public String getTeacher_Username() {
+		return Teacher_Username;
+	}
+
+	public void setTeacher_Username(String teacher_Username) {
+		Teacher_Username = teacher_Username;
+	}
+
+	public String getTeacher_Password() {
+		return Teacher_Password;
+	}
+
+	public void setTeacher_Password(String teacher_Password) {
+		Teacher_Password = teacher_Password;
+	}
+
+	public String getTeacher_Name() {
+		return Teacher_Name;
+	}
+
+	public void setTeacher_Name(String teacher_Name) {
+		Teacher_Name = teacher_Name;
+	}
+
+	public String getTeacher_Sex() {
+		return Teacher_Sex;
+	}
+
+	public void setTeacher_Sex(String teacher_Sex) {
+		Teacher_Sex = teacher_Sex;
+	}
+
+	public String getTeacher_Tel() {
+		return Teacher_Tel;
+	}
+
+	public void setTeacher_Tel(String teacher_Tel) {
+		Teacher_Tel = teacher_Tel;
+	}
+  
+}
